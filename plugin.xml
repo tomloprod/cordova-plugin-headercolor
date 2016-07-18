@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-headercolor" version="1.0">
+
+
+	<name>HeaderColor</name>
+	<description>HeaderColor is a cordova plugin to change color of header in multitask view. Android devices.</description>
+	<license>MIT</license>
+	<keywords>cordova, ionic, header color, android</keywords>
+	
+        <js-module src="www/HeaderColor.js" name="HeaderColor">
+            <clobbers target="cordova.plugins.headerColor" />
+	</js-module>
+		
+  <platform name="android">
+  
+    <config-file target="res/xml/config.xml" parent="/*">
+		<feature name="HeaderColor">
+			<param name="android-package" value="tomloprod.HeaderColor"/>
+		</feature>
+    </config-file>
+
+    <source-file src="src/android/HeaderColor.java" target-dir="src/tomloprod/headercolor"/>
+  
+  </platform>
+
+</plugin>
