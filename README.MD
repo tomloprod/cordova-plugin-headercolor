@@ -2,6 +2,8 @@
 
 **HeaderColor** is a cordova plugin to change color of header in multitask view. Android devices.
 
+<img src="https://raw.githubusercontent.com/tomloprod/cordova-plugin-headercolor/master/headercolor.png" width="350"/>
+
 ## Supported Platforms
 
 - Android
