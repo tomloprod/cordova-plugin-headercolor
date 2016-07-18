@@ -19,7 +19,7 @@ Cordova:
 This plugin exports an object with one method called "tint":
 
 ```javascript
-window.plugins.headerColor.tint("#900000");
+window.plugins.headerColor.tint("#becb29");
 ```
 
 
