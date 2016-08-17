@@ -12,7 +12,7 @@
 
 Cordova:
 
-    cordova plugin add https://github.com/tomloprod/cordova-plugin-headercolor
+    cordova plugin add cordova-plugin-headercolor
 
 ## Usage
 
