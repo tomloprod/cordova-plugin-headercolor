@@ -6,21 +6,22 @@
 	<description>HeaderColor is a cordova plugin to change color of header in multitask view. Android devices.</description>
 	<license>MIT</license>
 	<keywords>cordova, ionic, header color, android</keywords>
-	
+
         <js-module src="www/HeaderColor.js" name="HeaderColor">
             <clobbers target="cordova.plugins.headerColor" />
 	</js-module>
-		
+
   <platform name="android">
-  
+
     <config-file target="res/xml/config.xml" parent="/*">
 		<feature name="HeaderColor">
 			<param name="android-package" value="tomloprod.HeaderColor"/>
+			<param name="onload" value="true" />
 		</feature>
     </config-file>
 
     <source-file src="src/android/HeaderColor.java" target-dir="src/tomloprod/headercolor"/>
-  
+
   </platform>
 
 </plugin>
