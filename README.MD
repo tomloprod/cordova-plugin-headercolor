@@ -22,4 +22,8 @@ This plugin exports an object with one method called "tint":
 window.plugins.headerColor.tint("#becb29");
 ```
 
+You can also specify the header color in your `config.xml`:
 
+```xml
+<preference name="HeaderColor" value="#becb29" />
+```
