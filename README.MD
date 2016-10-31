@@ -1,4 +1,4 @@
-# cordova-plugin-headercolor
+# cordova-plugin-headercolor [![License](https://img.shields.io/github/license/tomloprod/cordova-plugin-headercolor.svg)](http://www.opensource.org/licenses/mit-license.php)
 
 **HeaderColor** is a cordova plugin to change color of header in multitask view. Android devices.
 
